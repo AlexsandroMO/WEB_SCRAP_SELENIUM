@@ -13,7 +13,7 @@ nav = webdriver.Chrome(options=options)
 #-------------------------------------
 
 nav.get('https://www.google.com/')
-nav.find_element(By.NAME, 'q').send_keys(search_text)
+nav.find_element(By.NAME, 'q').send_keys('Tempo')
 time.sleep(1) 
 nav.find_element(By.NAME, 'btnK').click()
 
